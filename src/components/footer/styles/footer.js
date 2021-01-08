@@ -6,6 +6,7 @@ export const Container = styled.div`
   margin: auto;
   max-width: 1000px;
   flex-direction: column;
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -21,6 +22,7 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 15px;
+
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
@@ -29,7 +31,7 @@ export const Row = styled.div`
 export const Link = styled.a`
   color: #757575;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
 `;
 
